@@ -4,20 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-        <a href="./">Home</a> &#65372; 
-        <a href="about.html">About Us</a> &#65372; 
-        <a href="projects.html">Our Projects</a> &#65372; 
+<div class="toplinks">
+        <a href="./">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="projects.html">Our Projects</a>
+        <a href="products.html">Our Products</a>
         <a href="contacts.html">Contact Us</a>
-
+</div>
+<div class="banner">
     <h1>Contact Us</h1>
+</div>
+<div class="row">
+    <div class="content">
+    <h2>Contact Us</h2>
     <p>If you have any questions or inquiries, please feel free to reach out to us through the following contact information:</p>
+    
+    <form action="">
+    <label for="full_name">Full name: </label>
+    <input type = "text" placeholder="Enter your name" required><br><br>
+    <label for="email">Email: </label>
+    <input type="email" placeholder="Enter your email" required><br><br>
+    <label for="phone">Phone: </label>
+    <input type="number" placeholder="Enter your phone number" required><br><br>
+    <label for="password">Password: </label>
+    <input type="password" placeholder="Enter your password" required><br><br>
+    <label for="date">Date: </label>
+    <input type="date" placeholder="Enter the date" required><br><br>
+    <label for="time">Time: </label>
+    <input type="time" placeholder="Enter the time" required><br><br>
+    <label for="color">Favourite Colour: </label>
+    <input type="color" placeholder="Enter your favourite colour" required><br><br>
+    <label for="url">Website URL: </label>
+    <input type="url" placeholder="Enter your website URL" required><br><br>
+    <label for="search">Search: </label>
+    <input type="search" placeholder="Search our website" required><br><br>
+    <label for="file">Upload File: </label>
+    <input type="file" placeholder="browse" accept="pdf" multiple required><br><br>
+
+    <label for="ratings">Rate our services:</label><br>
+    <input type="radio" name="ratings" value="3" required> 3<br><br>
+    <input type="radio" name="ratings" value="4" required> 4<br><br>
+    <input type="radio" name="ratings" value="5" required> 5<br><br>
+
+    <input type="checkbox" name="Subscribe" value="BBIT"> Subscribe to BBIT Newsletter<br><br>
+    <input type="checkbox" name="Subscribe" value="BICS"> Subscribe to BICS Newsletter<br><br>
+
+    <select name="country" required>
+        <option value="">Select your country</option>
+        <option value="Kenya">Kenya</option>
+        <option value="UG">Uganda</option>
+        <option value="TZ">Tanzania</option>
+        <option value="Rwanda">Rwanda</option>
+        <option value="South_Sudan">South Sudan</option>
+    </select>
+
+    <textarea name="message" placeholder="Enter your message here" required></textarea><br><br>
+    <input type="submit" value="update message">
+    
+
+
+    </form>
     <ul>
         <li>Email: <a href="mailto:support@icse.com">support@icse.com</a></li>
         <li>Phone: <a href="tel:+1234567890">+1 234 567 890</a></li>
         <li>Address: 123 Mada, Nairobi, Kenya</li>
     </ul>
+    </div>
+    <div class="sidebar">
+        <h2>Our Offices</h2>
+        <p>We have offices in multiple locations around the world. Please visit our website for more information on our office locations and hours of operation.</p>
+
+        <h3>Head Office</h3>
+        <p>123 Mada, Nairobi, Kenya</p>
+        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        <p>Email: <a href="mailto:headoffice@icse.com">headoffice@icse.com</a></p>
+        <h3>Mombasa Office</h3>
+        <p>456 Main Street, Mombasa, Kenya</p>
+        <p>Phone: <a href="tel:+1234567891">+1 234 567 891</a></p>
+        <p>Email: <a href="mailto:mombasa@icse.com">mombasa@icse.com</a></p>
+        <h3>Nakuru Office</h3>
+        <p>789 High Street, Nakuru, Kenya</p>
+        <p>Phone: <a href="tel:+1234567892">+1 234 567 892</a></p>
+        <p>Email: <a href="mailto:nakuru@icse.com">nakuru@icse.com</a></p>
+
+    </div>
+</div>
+<div class="footer">
+    &#169; 2026 ICS E. All rights reserved.
+</div>
 </body>
 </html>
