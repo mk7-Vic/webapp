@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
     <style>
+       body{
+        margin:0;
+       }
         .box {
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
             background-color: rgb(20, 147, 56);
             border: 2px solid black;
-            padding: 20px;
+            padding: 40px;
             margin: 30px;
         }
         .innerbox {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             background-color: lightcoral;
-            margin: auto;
+            border: 5px 20px 10px 15px;
+            border-color: red green blue yellow;
+            border-style:solid;
+            margin: 20px 10px 50px 65px;
         }
     </style>
 </head>
